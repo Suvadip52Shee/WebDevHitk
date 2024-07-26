@@ -1,0 +1,72 @@
+<!-- 1. Write HTML (use ordered and unordered lists) for the following recipe of “Friendship
+Cookies” to appear in your webpage:
+1. Combine sugar and cocoa and stir until very smooth. Add butter and milk.
+2. Microwave on high for 6 minutes.
+3. Slowly add and swirl any one or combination of the following ingredients:
+o oats
+o vanilla
+o nuts 
+4. Create a navigation menu/bar with options to navigate to the recipe and the definition list.
+5. Add one or more images to the page according to the following specification:
+a) display alternate text for the images
+b) resize the Width and Height of an image to 100 pixels each
+6. Apply styling to the web page to set formatting for text tags and lists.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendShipRecipe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#recipe">Recipe</a>
+            <a href="#definition-list">Definition List</a>
+        </div>
+    </header>
+    <section>
+        <div class="image">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/400/368/non_2x/homemade-tasty-cookies-clipart-design-illustration-free-png.png" alt="Cookie Image">
+        </div>
+        <div class="content">
+            <h2 id="recipe">Recipe</h2>
+            <p>Here is where the recipe content will go.</p>
+
+            <h2 id="definition-list">Definition List</h2>
+            <p>Here you will get all the list of the recipe</p>
+            <dl>
+                <h2>Search For Dictionary</h2>
+                <dt class="myclass">Glunch</dt>
+                <dd>A look of disdain, anger, or displeasure.</dd>
+
+                <dt class="myclass">Glumpy</dt>
+                <dd>Sullen, morose, or sulky.</dd>
+            </dl>
+            <h1 id="myclass1">FriendShip Cookies</h1>
+        <ol>
+            <li>Combine sugar and cocoa and stir until very smooth. Add butter and milk</li>
+            <li>Microwave on high for 6 minutes.</li>
+            <li>Slowly add and swirl any one or combination of the following ingredients:
+                <ul>
+                    <li class="blue">oats</li>
+                    <li class="blue">vanila</li>
+                    <li class="blue">nuts</li>
+                </ul>
+            </li>
+            <li>Microwave on high for 1 minute. Drop by teaspoon on a sheet of waxed paper. Chill
+                until set.</li>
+        </ol>
+        </div>
+    </section>
+
+    <footer>
+        <p class="endline"> &copy; 2024, MCA HITK</p>
+    </footer>
+</body>
+
+</html>
