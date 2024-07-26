@@ -1,0 +1,51 @@
+#recipe{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#definition-list{
+    color:blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.myclass{
+    color:red;
+}
+*{
+    background-color:coral;
+}
+#myclass1{
+    color:rgb(0, 81, 255);
+}
+.endline{
+    color:crimson;
+}
+section{
+    display: flex;
+    padding: 20px 0;
+}
+img{
+    height: 500px;
+    width: auto;
+    border-radius: 50%; 
+    animation: circle 7s linear infinite;
+}
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }100%{
+        transform: rotate(360deg);
+    }
+}
+.content{
+    padding-left: 20px;
+}
+.blue{
+    color:slateblue;
+}
